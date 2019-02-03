@@ -13,7 +13,7 @@ from discord import Game, Embed, Color, Status, ChannelType
 
 
 Forbidden= discord.Embed(title="Permission Denied", description="1) Please check whether you have permission to perform this action or not. \n2) Please check whether my role has permission to perform this action in this channel or not. \n3) Please check my role position.", color=0x00ff00)
-client = Bot(description="SAHIL RANA Bot is best", command_prefix="/", pm_help = True)
+client = Bot(description="SAHIL RANA Bot is best", command_prefix=">", pm_help = True)
 client.remove_command('help')
 
 
@@ -21,7 +21,7 @@ async def status_task():
     while True:
        
         
-        await client.change_presence(game=discord.Game(name='in TA Server! '))
+        await client.change_presence(game=discord.Game(name='in MAKE IN INDIA '))
         await asyncio.sleep(5)
 
 @client.event
@@ -318,10 +318,10 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name-Trivia Addicts 🥐 ", color=0x00ff00)
-    embed.set_footer(text="©TRIVIA ADDICTS Made with 💓 by Jordon Verloc#6456.")
+    embed = discord.Embed(title="Information about owner", description="Bot Name- MAKE IN INDIA ", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
-    embed.set_author(name=" Bot OwnerName- Jordon Verloc#6456")
+    embed.set_author(name=" Bot OwnerName- steevo#0211")
     embed.add_field(name="Site- https://discord.gg/tV5KJPP ", value="Thanks for joining our server", inline=True)
     await client.say(embed=embed)
     
@@ -416,7 +416,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/tV5KJP ',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'Trivia Addicts ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
+    embed.add_field(name = 'MAKE IN INDIA ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
