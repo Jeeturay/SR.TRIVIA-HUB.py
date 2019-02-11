@@ -13,7 +13,7 @@ from discord import Game, Embed, Color, Status, ChannelType
 
 
 Forbidden= discord.Embed(title="Permission Denied", description="1) Please check whether you have permission to perform this action or not. \n2) Please check whether my role has permission to perform this action in this channel or not. \n3) Please check my role position.", color=0x00ff00)
-client = Bot(description="SAHIL RANA Bot is best", command_prefix=".", pm_help = True)
+client = Bot(description="SAHIL RANA Bot is best", command_prefix="/", pm_help = True)
 client.remove_command('help')
 
 
@@ -21,9 +21,9 @@ async def status_task():
     while True:
        
         
-        await client.change_presence(game=discord.Game(name='in MAKE IN INDIA '))
+        await client.change_presence(game=discord.Game(name='in INDIA TRIVIA '))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='with Ready to play indian games'))
+        await client.change_presence(game=discord.Game(name='wathing this server!'))
         await asyncio.sleep(5)
 	
 @client.event
@@ -418,7 +418,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/tV5KJP ',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'MAKE IN INDIA ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
+    embed.add_field(name = 'INDIAN TRIVIA',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
