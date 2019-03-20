@@ -320,11 +320,11 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name- MAKE IN INDIA ", color=0x00ff00)
-    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
+    embed = discord.Embed(title="Information about owner", description="Bot Name-Unity Trivia 🥐 ", color=0x00ff00)
+    embed.set_footer(text="©Unity Trivia 🥐 Made with 💓 by steevo#0211.")
 
     embed.set_author(name=" Bot OwnerName- steevo#0211")
-    embed.add_field(name="Site- https://discord.gg/tV5KJPP ", value="Thanks for joining our server", inline=True)
+    embed.add_field(name="Site- https://discord.gg/YsQwD8E ", value="Thanks for joining our server.", inline=True)
     await client.say(embed=embed)
     
 @client.command(pass_context = True)
@@ -415,10 +415,10 @@ async def help(ctx):
     embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
     embed.set_author(name='Help')
     embed.set_image(url = 'https://image.ibb.co/caM2BK/help.gif')
-    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/tV5KJP ',inline = False)
+    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/YsQwD8E ',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'INDIAN TRIVIA',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
+    embed.add_field(name = 'Unity Trivia 🥐',value ='Thanks For Joining This Server Unity Trivia 🥐..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
