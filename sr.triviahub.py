@@ -1084,11 +1084,11 @@ async def hqhelp(ctx):
 
 @client.command(pass_context=True)
 async def hq(ctx):
-    embed = discord.Embed(title="Unity Trivia Lives 🥐", description="Hi ! i'm HQ Live Bot :wink:", color=0x00ff00)
+    embed = discord.Embed(title="Unity Trivia Lives 🥐", description="HQ Lives Generator💓", color=0x00ff00)
     embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
 
     embed.set_author(name="")
-    embed.add_field(name="Code Sent:-", value="`/code <otp_you_received>`", inline=True)
+    embed.add_field(name="Code Sent:-", value="Send a Verification Code To `+91xxxxxxxxxx`in oder to make a life type `/code <otp_you_received>`", inline=True)
     await client.say(embed=embed)
 	
 	
