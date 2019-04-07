@@ -1077,8 +1077,8 @@ async def hqhelp(ctx):
     embed.set_author(name="")
     embed.add_field(name="Get HQ Lives 💓", value="`/hq +91<number>`", inline=True)
     embed.add_field(name="Code Sent!", value="`/code <otp>`", inline=True)   
-    embed.add_field(name="", value="", inline=True)
-    embed.add_field(name="", value="", inline=True)	
+    embed.add_field(name="HQ New Lives System!", value="Steevo#0010", inline=True)
+    embed.add_field(name="Unity Trivia", value="HQ Lives💓", inline=True)	
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)
 
