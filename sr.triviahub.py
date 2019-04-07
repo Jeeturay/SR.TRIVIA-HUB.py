@@ -1082,6 +1082,17 @@ async def hqhelp(ctx):
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)
 
+@client.command(pass_context=True)
+async def hq(ctx):
+    embed = discord.Embed(title="Unity Trivia Lives 🥐", description="Hi ! i'm HQ Live Bot :wink:", color=0x00ff00)
+    embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
+
+    embed.set_author(name="")
+    embed.add_field(name="Code Sent:-", value="`/code <otp_you_received>`", inline=True)
+    await client.say(embed=embed)
+	
+	
+	
 client.run(os.getenv('Token'))
 
 
