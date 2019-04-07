@@ -1070,15 +1070,15 @@ async def swb(ctx):
     await client.say(embed=embed)
 
 @client.command(pass_context=True)
-async def swc(ctx):
-    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150  .")
+async def hqhelp(ctx):
+    embed = discord.Embed(title="Unity Trivia Lives 🥐", description="Hi ! i'm HQ Live Bot :wink:", color=0x00ff00)
+    embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
 
     embed.set_author(name="")
-    embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
-    embed.add_field(name="**__Option 2__**", value="10.20%", inline=True)   
-    embed.add_field(name="**__Option 3__**", value="75.5%", inline=True)
-    embed.add_field(name="**__Best Answer__**", value=":three:", inline=True)	
+    embed.add_field(name="Get HQ Lives 💓", value="`/hq +91<number>`", inline=True)
+    embed.add_field(name="Code Sent!", value="`/code <otp>`", inline=True)   
+    embed.add_field(name="", value="", inline=True)
+    embed.add_field(name="", value="", inline=True)	
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)
 
