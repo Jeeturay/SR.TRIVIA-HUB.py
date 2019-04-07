@@ -1091,7 +1091,14 @@ async def hq(ctx):
     embed.add_field(name="Code Sent:-", value="Send a Verification Code To `+91xxxxxxxxxx`in oder to make a life type `/code <otp_you_received>`", inline=True)
     await client.say(embed=embed)
 	
-	
+@client.command(pass_context=True)
+async def code(ctx):
+    embed = discord.Embed(title="Unity Trivia Lives 🥐", description="HQ Lives Generator💓", color=0x00ff00)
+    embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
+
+    embed.set_author(name="")
+    embed.add_field(name="Success :white_check_mark:", value="Youe HQ Life Has been sent Successfully :white_check_mark:" , inline=True)	
+    await client.say(embed=embed)
 	
 client.run(os.getenv('Token'))
 
