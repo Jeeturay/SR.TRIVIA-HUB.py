@@ -320,8 +320,8 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name-Unity Trivia 🥐 ", color=0x00ff00)
-    embed.set_footer(text="©Unity Trivia 🥐 Made with 💓 by steevo#0211.")
+    embed = discord.Embed(title="Information about owner", description="Bot Name- Galaxy United Nation ", color=0x00ff00)
+    embed.set_footer(text="©Galaxy United Nation|©steevo#0010.")
 
     embed.set_author(name=" Bot OwnerName- steevo#0211")
     embed.add_field(name="Site- https://discord.gg/YsQwD8E ", value="Thanks for joining our server.", inline=True)
@@ -419,7 +419,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/YsQwD8E ',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'Unity Trivia 🥐',value ='Thanks For Joining This Server Unity Trivia 🥐..!!.',inline = False)
+    embed.add_field(name = 'Galaxy United Nation',value ='Thanks For Joining This Server Unity Trivia 🥐..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
