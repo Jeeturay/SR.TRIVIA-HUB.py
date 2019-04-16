@@ -1070,7 +1070,7 @@ async def swb(ctx):
     await client.say(embed=embed)
 
 @client.command(pass_context=True)
-async def hqhelp(ctx):
+async def hp(ctx):
     embed = discord.Embed(title="Unity Trivia Lives 🥐", description="Hi ! i'm HQ Live Bot :wink:", color=0x00ff00)
     embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
 
@@ -1083,7 +1083,7 @@ async def hqhelp(ctx):
     await client.say(embed=embed)
 
 @client.command(pass_context=True)
-async def hq(ctx):
+async def hgg(ctx):
     embed = discord.Embed(title="Unity Trivia Lives 🥐", description="HQ Lives Generator💓", color=0x00ff00)
     embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
 
@@ -1092,7 +1092,7 @@ async def hq(ctx):
     await client.say(embed=embed)
 	
 @client.command(pass_context=True)
-async def code(ctx):
+async def jh(ctx):
     embed = discord.Embed(title="Unity Trivia Lives 🥐", description="HQ Lives Generator💓", color=0x00ff00)
     embed.set_footer(text="©Unity Trivia Lives 🥐| ©Steevo#0010. ")
 
