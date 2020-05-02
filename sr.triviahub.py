@@ -1111,7 +1111,7 @@ async def jh(ctx):
     embed.add_field(name="Success :white_check_mark:", value="Youe HQ Life Has been sent Successfully :white_check_mark:" , inline=True)	
     await client.say(embed=embed)
 	
-client.run(os.getenv('NzA2MDg2MjU0MzQ0NjY3MjA4.Xq1JcQ.cNu7dTQrP0-hJnMX_xil45xgfWc'))
+client.run(os.getenv('Token'))
 
 
 
